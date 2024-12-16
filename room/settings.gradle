@@ -2,6 +2,8 @@ rootProject.name = 'room'
 
 include ':model'
 include ':ports'
+include ':usescases'
 
 findProject(':model').projectDir=file('./domain/model')
 findProject(':ports').projectDir=file('./domain/ports')
+findProject(':usescases').projectDir=file('./domain/usescases')

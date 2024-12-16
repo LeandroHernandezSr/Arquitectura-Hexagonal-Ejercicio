@@ -9,6 +9,7 @@ public class Room {
     private Boolean available;
     private Date date;
 
+
     public Room(String name, Integer capacity, Boolean available,Date date) {
         this.name = name;
         this.capacity = capacity;
