@@ -3,7 +3,10 @@ rootProject.name = 'room'
 include ':model'
 include ':ports'
 include ':usescases'
+include ':mongo-adapter'
+
 
 findProject(':model').projectDir=file('./domain/model')
 findProject(':ports').projectDir=file('./domain/ports')
 findProject(':usescases').projectDir=file('./domain/usescases')
+findProject(':mongo-adapter').projectDir=file('./infrastructure/driven-adapters/mongo-adapter')
